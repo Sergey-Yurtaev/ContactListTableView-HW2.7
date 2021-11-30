@@ -24,7 +24,7 @@ class SectionContactViewController: UITableViewController {
         view.backgroundColor = .gray
     }
     
-    // Использование метода для кастомизации секции без использования кастомного класса
+    // Использование метода для кастомизации секции без использования кастомного класса с настройкой отступов
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         
         let headerView = UIView()
@@ -76,7 +76,7 @@ class SectionContactViewController: UITableViewController {
      }
      */
     
-    // Использование метода для кастомизации секции без использования кастомного класса
+    // Использование метода для кастомизации секции без использования кастомного класса без настройки отступов
     /*
      override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
      
