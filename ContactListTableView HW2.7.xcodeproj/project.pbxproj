@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		4B17767427560A25001F3D3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B17767327560A25001F3D3C /* AppDelegate.swift */; };
 		4B17767627560A25001F3D3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B17767527560A25001F3D3C /* SceneDelegate.swift */; };
-		4B17767827560A25001F3D3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B17767727560A25001F3D3C /* ViewController.swift */; };
 		4B17767B27560A25001F3D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B17767927560A25001F3D3C /* Main.storyboard */; };
 		4B17767D27560A28001F3D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B17767C27560A28001F3D3C /* Assets.xcassets */; };
 		4B17768027560A28001F3D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B17767E27560A28001F3D3C /* LaunchScreen.storyboard */; };
+		4B17768C27561177001F3D3C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B17768B27561177001F3D3C /* TabBarViewController.swift */; };
+		4B17768E2756119C001F3D3C /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B17768D2756119C001F3D3C /* ContactViewController.swift */; };
+		4B177690275611BF001F3D3C /* SectionContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B17768F275611BF001F3D3C /* SectionContactViewController.swift */; };
+		4B177692275611DD001F3D3C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B177691275611DD001F3D3C /* DetailsViewController.swift */; };
+		4B177694275611F1001F3D3C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B177693275611F1001F3D3C /* Person.swift */; };
+		4B17769627561205001F3D3C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B17769527561205001F3D3C /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B17767027560A25001F3D3C /* ContactListTableView HW2.7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ContactListTableView HW2.7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B17767327560A25001F3D3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B17767527560A25001F3D3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4B17767727560A25001F3D3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4B17767A27560A25001F3D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B17767C27560A28001F3D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B17767F27560A28001F3D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B17768127560A28001F3D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B17768B27561177001F3D3C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		4B17768D2756119C001F3D3C /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		4B17768F275611BF001F3D3C /* SectionContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionContactViewController.swift; sourceTree = "<group>"; };
+		4B177691275611DD001F3D3C /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		4B177693275611F1001F3D3C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		4B17769527561205001F3D3C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,52 @@
 		4B17767227560A25001F3D3C /* ContactListTableView HW2.7 */ = {
 			isa = PBXGroup;
 			children = (
-				4B17767327560A25001F3D3C /* AppDelegate.swift */,
-				4B17767527560A25001F3D3C /* SceneDelegate.swift */,
-				4B17767727560A25001F3D3C /* ViewController.swift */,
-				4B17767927560A25001F3D3C /* Main.storyboard */,
-				4B17767C27560A28001F3D3C /* Assets.xcassets */,
-				4B17767E27560A28001F3D3C /* LaunchScreen.storyboard */,
-				4B17768127560A28001F3D3C /* Info.plist */,
+				4B17769527561205001F3D3C /* DataManager.swift */,
+				4B17768927560CEA001F3D3C /* Model */,
+				4B17768A27560D17001F3D3C /* ViewControllers */,
+				4B17768827560CB9001F3D3C /* Storyboards */,
+				4B17768727560C6A001F3D3C /* SupportingFiles */,
 			);
 			path = "ContactListTableView HW2.7";
+			sourceTree = "<group>";
+		};
+		4B17768727560C6A001F3D3C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4B17767527560A25001F3D3C /* SceneDelegate.swift */,
+				4B17768127560A28001F3D3C /* Info.plist */,
+				4B17767C27560A28001F3D3C /* Assets.xcassets */,
+				4B17767327560A25001F3D3C /* AppDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		4B17768827560CB9001F3D3C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4B17767E27560A28001F3D3C /* LaunchScreen.storyboard */,
+				4B17767927560A25001F3D3C /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4B17768927560CEA001F3D3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B177693275611F1001F3D3C /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B17768A27560D17001F3D3C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B17768B27561177001F3D3C /* TabBarViewController.swift */,
+				4B17768D2756119C001F3D3C /* ContactViewController.swift */,
+				4B17768F275611BF001F3D3C /* SectionContactViewController.swift */,
+				4B177691275611DD001F3D3C /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B17767827560A25001F3D3C /* ViewController.swift in Sources */,
 				4B17767427560A25001F3D3C /* AppDelegate.swift in Sources */,
+				4B17769627561205001F3D3C /* DataManager.swift in Sources */,
+				4B177690275611BF001F3D3C /* SectionContactViewController.swift in Sources */,
+				4B17768E2756119C001F3D3C /* ContactViewController.swift in Sources */,
+				4B17768C27561177001F3D3C /* TabBarViewController.swift in Sources */,
+				4B177694275611F1001F3D3C /* Person.swift in Sources */,
 				4B17767627560A25001F3D3C /* SceneDelegate.swift in Sources */,
+				4B177692275611DD001F3D3C /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +343,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YGRG6HC2V6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ContactListTableView HW2.7/Info.plist";
+				INFOPLIST_FILE = "ContactListTableView HW2.7/SupportingFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -306,7 +358,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +371,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YGRG6HC2V6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ContactListTableView HW2.7/Info.plist";
+				INFOPLIST_FILE = "ContactListTableView HW2.7/SupportingFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +386,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
