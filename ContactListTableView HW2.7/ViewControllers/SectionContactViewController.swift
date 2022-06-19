@@ -90,4 +90,8 @@ class SectionContactViewController: UITableViewController {
      }
      */
     
+    deinit {
+        print("SectionContactViewController has been dealocated")
+    }
+    
 }

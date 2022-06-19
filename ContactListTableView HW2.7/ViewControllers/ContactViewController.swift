@@ -33,4 +33,8 @@ class ContactViewController: UITableViewController {
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
         detailsUserInfoVC.contactInfo = contactInfo[indexPath.row]
     }
+    
+    deinit {
+        print("ContactViewController has been dealocated")
+    }
 }

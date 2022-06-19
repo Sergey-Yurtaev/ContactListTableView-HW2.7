@@ -9,8 +9,6 @@ import UIKit
 
 class DetailsViewController: UIViewController {
     
-    
-    
     @IBOutlet var phoneLabel: UILabel!
     @IBOutlet var emailLabel: UILabel!
     
@@ -23,7 +21,9 @@ class DetailsViewController: UIViewController {
         emailLabel.text = "Email: \(contactInfo.email)"
         title = contactInfo.nameAndSurname
     }
-    
+    deinit {
+        print("DetailsViewController has been dealocated")
+    }
 }
 
 

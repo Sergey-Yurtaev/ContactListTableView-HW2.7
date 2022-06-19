@@ -24,5 +24,7 @@ class TabBarViewController: UITabBarController {
         contactListVC.contactInfo = contactInfo
         sectionVC.contactInfo  = contactInfo
     }
-
+    deinit {
+        print("TabBarViewController has been dealocated")
+    }
 }
